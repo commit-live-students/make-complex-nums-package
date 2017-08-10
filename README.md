@@ -1,6 +1,7 @@
-Note: You are not allowed to use any internal class called `complex`
+## Complex Numbers
 
-Define a class called `complex_number` which accepts 2 parameters:
+
+Define a class called `complex_number` which accepts 2 parameters during initialization:
 
 * x: int64, float64, real component of the complex numbers
 * y: int64, float64, imaginary component of the complex number
@@ -13,6 +14,7 @@ The number can exist in 2 formats:
 Define the follwoing operations for the class: (these methods should be compatible with `int` and `float` datatypes as well)
 
 * representation
+* '=='
 * '+'
 * '-'
 * '*'
@@ -34,3 +36,5 @@ Also, define following methods.
 Include error handling
 
 Optional: Make the package pip installable.
+
+*Note* : You are not allowed to use any internal class called `complex`.
